@@ -82,6 +82,7 @@ Hints:
 levels may make the code harder to analyze and interpret in the profiling results. The generated machine code can be more complex, and the relationships between source code and assembly instructions may become less straightforward.
 Therefore, it's essential to consider the trade-off between optimization and ease of analysis when interpreting the `perf report` output.
 
+
 ## Notes
 
 - If you want to multi-thread your code(not for task7.3), use **a maximum of 4 (four)** threads. You can expect all inputs of your code to be a multiple of 4 in size.
