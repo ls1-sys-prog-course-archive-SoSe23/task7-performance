@@ -83,7 +83,7 @@
     {
       "name": "Test matrix multiplication perf usage",
       "setup": "",
-      "run": "timeout -s9 2m python3 tests/test_matrix_stat.py 0.5 0.2 0.4 0.7 0.2",
+      "run": "timeout -s9 2m python3 tests/test_matrix_stat.py 0.5 0.2 0.4 0.1 0.2",
       "input": "",
       "output": "",
       "comparison": "included",
