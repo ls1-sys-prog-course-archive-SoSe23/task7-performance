@@ -73,7 +73,7 @@
     {
       "name": "Test Performance Report Existence",
       "setup": "",
-      "run": "timeout -s9 2m bash tests/test_existence_perf.sh",
+      "run": "timeout -s9 2m python3 tests/test_existence_perf.py",
       "input": "",
       "output": "",
       "comparison": "included",
