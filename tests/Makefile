@@ -30,6 +30,6 @@ check: all
 	rm -f mandelbrot_driver_output
 	python3 ./test_mandelbrot.py 0.98
 	bash test_existence_perf.sh
-	bash test_matrix_stat.sh 0.5 0.2 0.4 0.7 0.2
+	bash test_matrix_stat.sh 0.5 0.2 0.4 0.1 0.2
 	bash test_mandelbrot_stat.sh 0.4 0.4 0.4 0.4
 	python3 ./test_map.py 0.98
