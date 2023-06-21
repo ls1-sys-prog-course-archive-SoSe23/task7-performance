@@ -56,8 +56,9 @@ def main() -> None:
     def extract_value(stat_path, event):
         with open(stat_path, "r") as f:
             for line in f:
-                if event in line:
-                    return int(''.join(filter(str.isdigit, line)))
+                if (' '+ event) in line:
+                    subline = line[0:line.find(event)]
+                    return int(''.join(filter(str.isdigit, subline)))
         return None
     
     basic_inst = extract_value(basic_stat_path, "instructions")
